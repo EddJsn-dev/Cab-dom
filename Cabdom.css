@@ -1,0 +1,147 @@
+@font-face 
+    {
+        font-family: "acherusgrotesque";
+        src: url("Font/Fonts/acherusgrotesque.otf") format("otf");
+    }
+
+@media screen and (max-width: 720px) 
+    {
+       #nav {display: none;}
+       #présentation2 {display: none;}
+       #article {text-align: justify;}
+       #titre {font-size: 1.5em;}
+       .logokine {display: none;}
+       .kine {display: none;}
+    }
+
+@media screen and (min-width: 720px) and (max-width: 1080px)
+    {
+        #nav {font-size: 1.5em; margin-left: 10px; margin-right: 10px;}
+        #titre {font-size: 2.2em;}
+        .kine {display: none;}
+    }
+
+img {margin: 5px}
+
+body    
+    {
+        padding: 0px;
+        margin: 0px;
+        font-family: "acherusgrotesque", 'Times New Roman', Times, serif;
+        background: linear-gradient(to left bottom, rgb(251, 251, 156), rgb(169, 169, 241));
+    }
+
+a {-webkit-text-stroke: 0.5px;}
+a:hover {font-weight: bold;}
+strong {font-weight: bold; font-size: 1.5em; -webkit-text-stroke: 0.5px;}
+
+.colonne
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+.logokine {max-width: 80px; max-height: 80px; position: absolute; top: 40px; right: 40px;}
+.titre {font-size: 3.5em; margin: auto; max-width: 75%; text-align: center; white-space: nowrap;}
+.logocab {max-width: 75%;}
+
+article {margin: 20px}
+
+nav
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: none 1px black;
+        font-size: 2em;
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        -webkit-text-stroke: 1px;
+        width: auto;
+    }
+
+.menu {color: #2508a2;}
+
+.présentation
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+article {text-align: justify;}
+.présentation2 {display: flex; flex-wrap: wrap; margin-left: 30px; margin-right: 30px; flex-direction: column;}
+
+#Praticiens 
+    {
+    background: linear-gradient(to right top, rgb(243, 198, 205), rgb(169, 169, 241)); 
+    border-top: black groove 5px; 
+    border-bottom: black groove 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.A
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        text-align: justify;
+        border: black solid 0px;
+    }
+
+.B
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        text-align: justify;
+        border: blue solid 0px;
+    }
+
+footer 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+        border: solid 1px black;
+        border-radius: 35px;
+        font-weight: bold;
+        box-shadow: 5px 5px black;
+    }
+
+.contact
+    {
+        width: 50%;
+        text-align: left;
+        padding : 50px;
+    }
+
+.lien
+    {
+        width: 50%;
+        text-align: left;
+        padding : 50px;
+    }
+
+.imagecabinet
+    {
+        text-align: center;
+    }
+
+div {width: 100px;}
