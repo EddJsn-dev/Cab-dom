@@ -51,6 +51,8 @@ article {margin: 20px}
 
 nav
     {
+        position: sticky; top: 0px;
+        background-color: whitesmoke;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -77,11 +79,16 @@ article {text-align: justify;}
 
 #Praticiens 
     {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
     background: linear-gradient(to right top, rgb(243, 198, 205), rgb(169, 169, 241)); 
     border-top: black groove 5px; 
     border-bottom: black groove 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
 
 .A
@@ -93,9 +100,14 @@ article {text-align: justify;}
         align-content: space-around;
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-right: 5px;
         padding: 20px;
         text-align: justify;
         border: black solid 0px;
+        max-width: 45%;
+        border: black solid 1px;
+        box-shadow: 5px 5px black;        
+
     }
 
 .B
@@ -107,9 +119,14 @@ article {text-align: justify;}
         align-content: space-around;
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: 5px;
         padding: 20px;
         text-align: justify;
         border: blue solid 0px;
+        max-width: 45%;
+        border: black solid 1px;
+        box-shadow: 5px 5px black;        
+
     }
 
 footer 
@@ -122,21 +139,23 @@ footer
         border: solid 1px black;
         border-radius: 35px;
         font-weight: bold;
-        box-shadow: 5px 5px black;
+        box-shadow: 5px 5px black;        
+        font-size: 1.2em;
+
     }
 
 .contact
     {
         width: 50%;
         text-align: left;
-        padding : 50px;
+        padding : 10px;
     }
 
 .lien
     {
         width: 50%;
         text-align: left;
-        padding : 50px;
+        padding : 10px;
     }
 
 .imagecabinet
@@ -145,3 +164,5 @@ footer
     }
 
 div {width: 100px;}
+
+.nous {font-size: 2em;}
